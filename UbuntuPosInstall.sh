@@ -7,13 +7,12 @@ sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 sudo apt update &&
 ##Instalando pacotes e programas do repositório deb do Ubuntu
 
-sudo apt install python3 python-pip wine nautilus-dropbox docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak -y &&
+sudo apt install python3 python-pip docker docker-compose git build-essential libssl-dev flatpak gnome-software-plugin-flatpak -y &&
 ##Instalando pacotes Snap
 
 sudo snap install slack --classic &&
 sudo snap install zoom --classic &&
 sudo snap install code --classic &&
-sudo snap install insomnia &&
 sudo snap install spotify &&
 sudo snap install discord &&
 ##Adicionando repositório Flathub
